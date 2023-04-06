@@ -43,12 +43,12 @@ public class ErrorLogger {
             }
         }));
     }
-
+// Hola Manolo
     private static String getCurrentTimeString() {
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         return dateFormat.format(new Date());
     }
-
+// Epale
     public static void log(Level level, String me, Exception exception) {
         if (classs.equals("")) {
             configure();
